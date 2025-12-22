@@ -1,4 +1,4 @@
-**GitHub Repository:** [https://github.com/minhtuan130604/zakrivayuschiy-teg-ad](https://github.com/minhtuan130604/zakrivayuschiy-teg-ad)**GitHub Repository:** [https://github.com/minhtuan130604/zakrivayuschiy-teg-ad](https://github.com/minhtuan130604/zakrivayuschiy-teg-ad)
+**GitHub Repository:** [https://github.com/minhtuan130604/zakrivayuschiy-teg-ad](https://github.com/minhtuan130604/zakrivayuschiy-teg-ad)
 
 ## <p align="center"> ![Logo](./screen/logo.png) </p>
 
