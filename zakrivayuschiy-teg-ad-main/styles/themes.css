@@ -1,0 +1,106 @@
+:root.theme-light {
+  --font-weight-main: 400;
+  --font-weight-title: 700;
+
+  --color-bg: #ffffff;
+  --color-main: #000000;
+  --color-accent: #000000;
+
+  --color-button-text: #ffffff;
+  --color-button-hover: #000000;
+  --color-blend: #ffffff;
+
+  --color-heart-cntr: #000000;
+  --color-heart-mb: transparent;
+  --animation-fill-color: #ff0000;
+
+  --watermark-stroke-color: #ffffff;
+
+  --img-bg: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #1a1a1a
+    );
+}
+
+:root.theme-dark {
+  --font-weight-main: 465;
+  --font-weight-title: 785;
+
+  --color-bg: #000000;
+  --color-main: #00cc14;
+  --color-accent: #00cc14;
+
+  --color-button-text: #00cc14;
+  --color-button-hover: #00cc14;
+  --color-blend: #00cc14;
+
+  --color-heart-cntr: #00cc14;
+  --color-heart-mb: transparent;
+  --animation-fill-color: #ff0000;
+
+  --watermark-stroke-color: #000000;
+
+  --img-bg: repeating-linear-gradient(
+      to right,
+      #000000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #000000 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #007f0c 0.01%,
+      #004306
+    );
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-weight-main: 465;
+    --font-weight-title: 785;
+
+    --color-bg: #000000;
+    --color-main: #00cc14;
+    --color-accent: #00cc14;
+
+    --color-button-text: #00cc14;
+    --color-button-hover: #00cc14;
+    --color-blend: #00cc14;
+
+    --color-heart-cntr: #00cc14;
+    --color-heart-mb: transparent;
+    --animation-fill-color: #ff0000;
+
+    --watermark-stroke-color: #000000;
+
+    --img-bg: repeating-linear-gradient(
+        to right,
+        #000000 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        #000000 0 2px,
+        transparent 2px 4px
+      ),
+      linear-gradient(
+        to bottom,
+        #007f0c 0.01%,
+        #004306
+      );
+  }
+}
